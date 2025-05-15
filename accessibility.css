@@ -1,0 +1,70 @@
+* High Contrast Mode */
+.high-contrast {
+    background-color: black !important;
+    color: yellow !important;
+}
+
+.high-contrast .main-header,
+.high-contrast .main-footer {
+    background-color: #000080 !important;
+    color: white !important;
+}
+
+.high-contrast a,
+.high-contrast .nav-link,
+.high-contrast .footer-section a {
+    color: yellow !important;
+}
+
+.high-contrast .culture-card,
+.high-contrast .game-card {
+    background-color: black !important;
+    border: 2px solid yellow !important;
+    color: white !important;
+}
+
+.high-contrast button,
+.high-contrast .cta-button,
+.high-contrast .learn-more,
+.high-contrast .play-game {
+    background-color: yellow !important;
+    color: black !important;
+    border: 2px solid white !important;
+}
+
+/* Large Text Mode */
+.large-text {
+    font-size: 20px !important;
+}
+
+.large-text h1 {
+    font-size: 3rem !important;
+}
+
+.large-text h2, 
+.large-text .section-title {
+    font-size: 2.5rem !important;
+}
+
+.large-text h3 {
+    font-size: 2rem !important;
+}
+
+.large-text button,
+.large-text .cta-button,
+.large-text .learn-more,
+.large-text .play-game {
+    font-size: 1.3rem !important;
+    padding: 1rem 2rem !important;
+}
+
+/* Dyslexia Friendly Font */
+.dyslexia-mode {
+    font-family: 'Comic Sans MS', 'OpenDyslexic', sans-serif !important;
+    line-height: 1.8 !important;
+    letter-spacing: 1px !important;
+}
+
+.dyslexia-mode p {
+    margin-bottom: 1.5rem !important;
+}
